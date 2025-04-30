@@ -5,5 +5,5 @@ fun main(){
     println("Hello world, $name")
 }
 fun two(){
-    println("Привет из ветки develop!")
+    println("Привет из ветки main!")
 }
