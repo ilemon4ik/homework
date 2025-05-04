@@ -1,7 +1,12 @@
 fun main(){
+    two()
+}
 
-    println("Hello Kotlin, ")
-    val name = readLine()
-    println("Hello Kotlin, $name")
-
+fun one(){
+    print("Hello world!")
+}
+fun two(){
+    print("Hellow world, (Введите своё имя)")
+    val name = readln()
+    print("Hello world, $name!")
 }
