@@ -1,11 +1,11 @@
-fun main() {
-    two()
+fun main(){
+    lesson_one_two()
 }
 
-fun one(){
+fun lesson_one_one(){
     print("Hello world!")
 }
-fun two(){
+fun lesson_one_two(){
     print("Hellow world, (Введите своё имя)")
     val name = readln()
     print("Hello world, $name!")
