@@ -1,8 +1,8 @@
-fun  main(){
+fun main() {
     lesson_two_one()
 }
 
-fun lesson_two_one(){
+fun lesson_two_one() {
 
     print("Введите длину прямоугольника: ")
     val length = readLine()!!.toInt()
@@ -17,7 +17,7 @@ fun lesson_two_one(){
     println("Площадь прямоугольника: $area")
 }
 
-fun lesson_two_two(){
+fun lesson_two_two() {
 
     println("Введите ваше кол-во баллов: ")
     val point = readLine()!!.toInt()
@@ -35,7 +35,7 @@ fun lesson_two_two(){
     }
 }
 
-fun lesson_two_three(){
+fun lesson_two_three() {
 
     println("Введите число N")
     val numberN = readLine()!!.toInt()

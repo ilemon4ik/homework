@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 public class LessonTwo {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         lesson_two_dopzadanie();
     }
 
-    public static void lesson_two_one (){
+    public static void lesson_two_one() {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -25,7 +25,7 @@ public class LessonTwo {
         scanner.close();
     }
 
-    public static void lesson_two_two(){
+    public static void lesson_two_two() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите ваше кол-во баллов: ");
         int point = scanner.nextInt();
@@ -69,6 +69,6 @@ public class LessonTwo {
                 System.out.println("Вы ввели число: " + number);
             }
         } while (condition);
-            System.out.println("Число отрицательное, программа завершилась!");
+        System.out.println("Число отрицательное, программа завершилась!");
     }
 }
