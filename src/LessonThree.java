@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lesson_three {
+public class LessonThree {
     public static void main(String[] args) {
         lesson_six();
     }

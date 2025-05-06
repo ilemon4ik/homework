@@ -1,5 +1,3 @@
-import java.util.*
-
 fun  main(){
     lesson_two_one()
 }

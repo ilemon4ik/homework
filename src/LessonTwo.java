@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lesson_two {
+public class LessonTwo {
     public static void main (String[] args){
         lesson_two_dopzadanie();
     }
